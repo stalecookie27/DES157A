@@ -1,0 +1,104 @@
+body{
+    background-color:#121113;
+    font-family: Tilt Neon;
+    font-size: 25px;
+}
+
+h1{
+font-family: Rubik Spray Paint;
+font-size: 80px; 
+color: #E7E0D6;
+text-align: center;
+text-shadow:
+      0 0 7px #E7E0D6,
+      0 0 10px #E7E0D6,
+      0 0 40px #eeaeca,
+      0 0 60px #eeaeca,
+      0 0 70px #E40066;
+}
+
+h3{
+font-family: Rubik Spray Paint;
+color: #E7E0D6;
+font-size: 40px;
+padding-left: 40px;
+text-shadow:
+    0 0 7px #E7E0D6,
+    0 0 10px #E7E0D6,
+    0 0 30px #eeaeca,
+    0 0 40px #eeaeca,
+    0 0 50px #E40066;
+}
+
+ul li a{
+    color:#eeaeca;
+    text-decoration: none;
+    line-height: 2em;
+    
+}
+ul li{
+   list-style-type: none; 
+}
+
+ul li a:hover{
+    color:#E7E0D6;
+    background-color: #eeaeca;
+
+}
+
+section{
+margin-bottom: 180px;
+}
+
+footer{
+    color:#eeaeca; 
+    text-align: center; 
+    font-family: Libre Barcode 128;
+}
+
+#banner {
+width: 1200px;
+height: 250px;
+}
+#banner .butterfly {
+    animation: slidein 3s ease-in;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 10%;
+      }
+
+    25%{
+        margin-left: 75%;
+        width: 30%;
+
+    }
+
+    75%{
+        margin-left: 25%;
+        width: 25%;
+    }
+    
+    to {
+        margin-left: 0%;
+        width: 10%;
+      }  
+}
+
+
+@media only screen and (min-width: 800px){
+   
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+}
+
+section{
+    min-width: 300px;
+}
+
+
+
