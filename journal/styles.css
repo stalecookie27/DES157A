@@ -19,6 +19,7 @@ body{
 
 .main{
     max-width: 800px;
+    display: flex;
 }
 h1{
 font-family: Rubik Spray Paint;
