@@ -10,7 +10,6 @@ body{
 
 .flex{
     display: flex;
-    ;
     font-size: 16px;
     padding: 30px;
     transform: translateY(20px);
@@ -26,39 +25,40 @@ body{
 #articles{
     max-width: 700px;
     padding-left: 40px;
+    marigin: 20px;
 }
 
 
 h1{
- font-family: Rubik Spray Paint;
-font-size: 50px; 
-color: #E7E0D6;
-text-align: center;
-text-shadow:
-      0 0 7px #E7E0D6,
-      0 0 10px #E7E0D6,
-      0 0 40px #eeaeca,
-      0 0 60px #eeaeca,
-      0 0 70px #E40066;   
+    font-family: Rubik Spray Paint;
+    font-size: 50px; 
+    color: #E7E0D6;
+    text-align: center;
+    text-shadow:
+        0 0 7px #E7E0D6,
+        0 0 10px #E7E0D6,
+        0 0 40px #eeaeca,
+        0 0 60px #eeaeca,
+        0 0 70px #E40066;   
 }
 
 
 h2{
-font-family: Rubik Spray Paint;
-color: #E7E0D6;
-font-size: 24px;
-text-shadow:
-    0 0 7px #E7E0D6,
-    0 0 10px #E7E0D6,
-    0 0 30px #eeaeca,
-    0 0 40px #eeaeca,
-    0 0 50px #E40066;
+    font-family: Rubik Spray Paint;
+    color: #E7E0D6;
+    font-size: 24px;
+    text-shadow:
+        0 0 7px #E7E0D6,
+        0 0 10px #E7E0D6,
+        0 0 30px #eeaeca,
+        0 0 40px #eeaeca,
+        0 0 50px #E40066;
 }
 
 ul li a{
     color:#eeaeca;
     text-decoration:dotted;
-    line-height: 2em;
+    line-height: 2.5em;
     
 }
 ul li{
