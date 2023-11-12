@@ -12,6 +12,8 @@ body{
 
 .flex{
     display: flex;
+    font-size: 16px;
+    padding: 20px;
 }
 h1{
 font-family: Rubik Spray Paint;
