@@ -4,26 +4,34 @@ html{
 body{
     background-color:#121113;
     font-family: Tilt Neon;
-    font-size: 25px;
-    max-width: 1100px;
-    padding: 20px;
-    margin: auto;
+    font-size: 16px;
+    color: #eeaeca;
 }
 
 .flex{
     display: flex;
+    ;
     font-size: 16px;
-    padding: 20px;
+    padding: 30px;
     transform: translateY(20px);
 }
 
-.main{
-    max-width: 800px;
-    display: flex;
+#list{
+    max-width: 600px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 40px;
 }
+
+#articles{
+    max-width: 700px;
+    padding-left: 40px;
+}
+
+
 h1{
-font-family: Rubik Spray Paint;
-font-size: 80px; 
+ font-family: Rubik Spray Paint;
+font-size: 50px; 
 color: #E7E0D6;
 text-align: center;
 text-shadow:
@@ -31,14 +39,14 @@ text-shadow:
       0 0 10px #E7E0D6,
       0 0 40px #eeaeca,
       0 0 60px #eeaeca,
-      0 0 70px #E40066;
+      0 0 70px #E40066;   
 }
+
 
 h2{
 font-family: Rubik Spray Paint;
 color: #E7E0D6;
-font-size: 40px;
-padding-left: 40px;
+font-size: 24px;
 text-shadow:
     0 0 7px #E7E0D6,
     0 0 10px #E7E0D6,
@@ -49,7 +57,7 @@ text-shadow:
 
 ul li a{
     color:#eeaeca;
-    text-decoration: none;
+    text-decoration:dotted;
     line-height: 2em;
     
 }
@@ -64,7 +72,6 @@ ul li a:hover{
 }
 
 
-
 footer{
     color:#eeaeca; 
     text-align: center; 
@@ -72,8 +79,8 @@ footer{
 }
 
 #banner {
-width: 1200px;
-height: 250px;
+width: 1100px;
+height: 200px;
 }
 #banner .butterfly {
     animation: slidein 3s ease-in;
