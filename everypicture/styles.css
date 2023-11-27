@@ -1,0 +1,132 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background: #EAF2EF;
+}
+
+.main{
+    display: flex;
+}
+
+/* main/images styling*/
+#main{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+#mainp{
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+img{
+    transition: all 1.5s ease;
+    width: 350px ;
+    height: 500px; 
+    padding-right:30px;
+    padding-left: 30px;
+}
+img:hover{
+    transform: scale(1.2);
+    box-shadow: 2px 2px 20px 1px #eeebd0;
+}
+
+/* front header styling*/
+
+#front{
+    text-align: center;
+    padding: 100px;
+}
+#frontp{
+    padding-bottom: 40px;
+}
+
+#pressEnter{
+padding: 15px 30px;
+font-size: 16px;
+font-family: 'Poppins', sans-serif;
+font-weight: bold;
+border-width: .2em;
+border-radius: .6em;
+text-align: center;
+background-color:#EAF2EF;
+color:#172621
+}
+
+#pressEnter:hover{
+    background-color: #172621;
+    color:#EAF2EF
+}
+
+h1{
+color: #172621;
+font-family: 'Righteous', sans-serif;
+font-size: 100px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+/*overlay styling and function*/
+
+.hidden{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.showing{
+    visibility: visible;
+    opacity: 1;
+}
+
+#overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transition-property: opacity, visibility;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    background-image: url(images/countdown.jpg);
+
+}
+
+#overlay article{
+    box-sizing: border-box;
+    padding: 20px;
+    width: 60vw;
+    height: 70vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #eeebd0;
+}
+
+.close{
+    background-color: #EAF2EF;
+    border: 1.5px solid #172621;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.close:hover{
+    background-color: #9AC1B3;
+}
+
+#img
