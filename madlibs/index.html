@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+    <link href="styles.css" rel="stylesheet">
+
+    <title>Madlibs</title>
+</head>
+<body>
+    <header>
+        <h1>Create a PinkPantheress verse</h1>
+    </header>
+
+<main>
+
+    <form id="myform">
+
+        <h2 id="title">PinkPantheress is one of the most popular rising pop girlie who is celebrated for her unique sound and style. One of the main things she is known for is her short songs. Let’s see if you can write a pop song. Fill out below!</h2>
+    
+        <div id="total">
+            <div id="column1">
+                <label for="inputOne">Provide a Day of the Week</label>
+                <input type="text" id="inputOne">
+
+                <label for="inputTwo">Provide a Noun</label>
+                <input type="text" id="inputTwo">
+
+                <label for="inputTre">Provide a Adjective that ends w/ -ing</label>
+                <input type="text" id="inputTre">
+
+                <!--This verb will be repeated-->
+                <label for="inputFor">Provide a Verb</label>
+                <input type="text" id="inputFor">
+                <!--end-->
+
+                <label for="inputFiv">Provide a Day of the Week</label>
+                <input type="text" id="inputFiv"> 
+
+                <label for="inputSix">Provide a Noun</label>
+                <input type="text" id="inputSix">
+            </div>
+
+            <div id="column2">       
+                <label for="inputSev">Provide a Adjective that ends w/ -ing</label>
+                <input type="text" id="inputSev">
+
+                <!--The verb will be repeated here!-->
+
+                <label for="inputEig">Provide a Noun</label>
+                <input type="text" id="inputEig">
+
+                <label for="inputNin">Provide a Adjective</label>
+                <input type="text" id="inputNin">
+
+                <label for="inputTen">Provide a Verb</label>
+                <input type="text" id="inputTen"> 
+
+                <label for="inputEle">Provide a Noun</label>
+                <input type="text" id="inputEle">
+
+                <label for="inputTwe">Provide a Noun</label>
+                <input type="text" id="inputTwe">
+            </div>
+        </div>
+        <p id="error"></p>
+        <input id="submit" type="submit"  class="open" value="generate verse!">
+    </form>
+    
+    <img id="doves" src="images/dove.png" alt="dove" width="250" height="310">
+
+    <div id="overlay" class="hidden">
+        <article id="madlib">
+            <br><h2 id="ovrtitle">Heading</h2>
+            <p id="story"></p>
+            <button class="close">x</button>
+        </article>
+    </div>
+
+    <div id="errorContainer" class="hidden">
+        <p id="errorMsg"></p>
+    </div>
+                                
+</main>
+
+</body>
+</html>
