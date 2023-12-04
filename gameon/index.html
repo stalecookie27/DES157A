@@ -25,6 +25,7 @@
     <title>Beat the  Frat Guy</title>
 </head>
 <body>
+    <button id="gamerules">?</button>
     <h1>BEAT THE FRAT GUY</h1>
     <h2>Do you have the chance to beat them at their own game?</h2>
 
@@ -36,28 +37,28 @@
                 "one" was not rolled) or if the current player feels that luck is running thin, they can pass to the other
                 player. The first player to get a score of 30 wins. Oh, and if you roll two "ones" (snake
                 eyes), your current score gets zeroed out. So don’t do that.</p>
+                <p>The person who reaches more than 30 shots win!</p>
             <button id="continue" class="button">CONTINUE</button>
         </article>
     </section>
 
-   
-
-
     <div id="main">
+
+        <div id="gamecontrol">
+            <h2 id="head2">START A GAME</h2>
+            <button id="startgame">POUR UP</button>
+        </div>
+
+        <div id="img-p">
+            <img src="images/nfguy.png" alt="nfguy"  id="nfguy">
+            <div id="game"></div>
+            <img src="images/fguy.png" alt="fguy"  id="fguy">
+        </div>
         
-     <div id="gamecontrol"></div>
-        <h2>START A GAME </h2>
-        <button id="startgame">start</button>
-    </div>    
+    </div> 
 
-    <img src="images/nfguy.png" alt="nfguy" width="514" height="394" id="nfguy">
-    <img src="images/fguy.png" alt="fguy" width="514" height="394" id="fguy">
-
-    <button id="gamerules">rules</button>
-
-    <div id="game"></div>
-    <div id="actions"></div>
-    <div id="score"></div>
-   </div> 
+        <div id="actions"></div>
+        <div id="score"></div>
+    
 </body>
 </html>

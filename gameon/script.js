@@ -16,7 +16,7 @@
     const pourSound = new Audio('music/pouring.mp3');
 
     const gameData = {
-        dice: ['images/1die.jpg', 'images/2die.jpg', 'images/3die.jpg', 'images/4die.jpg', 'images/5die.jpg', 'images/6die.jpg'],
+        dice: ['images/cupdice-1.png', 'images/cupdice-2.png', 'images/cupdice-3.png', 'images/cupdice-4.png', 'images/cupdice-5.png', 'images/cupdice6.png'],
         players: ['player 1', 'player 2'],
         score: [0, 0],
         roll1: 0,
@@ -57,7 +57,11 @@
     document.querySelector('#gamerules').addEventListener('click', function(){
         document.getElementById('overlay').className = 'showing';
         startGame.remove();
-        document.querySelector('article').innerHTML = `<h3>INSTRUCTION</3> <button id="close">close</button>`
+        document.querySelector('article').innerHTML = `<h3>INSTRUCTION</3><p>There are two players. The player whose turn it is rolls the dice. The total of the roll increases the score of the chosen player, unless either die comes up as a "one". If this happens, this player's turn is over,
+        and it is the other player’s turn. After each roll, the current player can either roll again, (assuming a
+        "one" was not rolled) or if the current player feels that luck is running thin, they can pass to the other
+        player. The first player to get a score of 30 wins. Oh, and if you roll two "ones" (snake
+        eyes), your current score gets zeroed out. So don’t do that.</p> <p>the person who reaches more than 30 shots win!</p> <button id="close">close</button>`
         document.querySelector('#close').addEventListener('click',function(){
             document.getElementById('overlay').className = 'hidden';
         });
@@ -69,8 +73,8 @@
         gameData.index = Math.round(Math.random());
         console.log(gameData.index);
 
-        gameControl.innerHTML = '<h2>THE GAME HAS STARTED</h2>';
-        gameControl.innerHTML += '<button id="quit">QUIT THE GAME</button>';
+        gameControl.innerHTML = '<h2 id="head2">THE GAME HAS STARTED</h2>';
+        gameControl.innerHTML += '<button id="quit">Quit the game</button>';
         document.getElementById('quit').addEventListener('click', function(){
             location.reload();
         });
@@ -143,4 +147,4 @@
     }
 
   
-})();
+})()
