@@ -6,9 +6,9 @@
     const madLib = document.querySelector('#madlib p');
 
 
-    //const overlay = document.querySelector('#overlay');
-    //const errorContainer = document.querySelector('#errorContainer');
-    //const error = document.querySelector('#errorMsg');
+    const overlay = document.querySelector('#overlay');
+    const errorContainer = document.querySelector('#errorContainer');
+    const error = document.querySelector('#errorMsg');
 
     myForm.addEventListener("submit", function(event){
         event.preventDefault();

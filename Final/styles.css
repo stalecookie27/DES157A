@@ -1,0 +1,73 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: url(images/ml-background.png);
+    font-family: Tilt Neon;
+    font-size: 18px;
+    max-width: 750px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #D9D5DF;
+    line-height: 1.5em;
+}
+
+#main{
+    background-color: #696470;
+    padding: 30px;
+    max-width: 750px;
+
+}
+
+.list{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 40px;
+}
+
+#psum{
+    font-size: 25px;
+}
+
+#projsum{
+    font-size: 30px;
+}
+
+#projd{
+    line-height: normal;
+}
+
+h1{
+    font-size: 50px;
+    font-family: Tilt Neon;
+    margin: 70px;
+    text-align: center;
+}
+
+h2{
+    font-size: 25px;
+    font-family: Tilt Neon;
+    color:#F7F1FF;
+}
+
+p{
+    padding: 5px;
+}
+
+ul li a{
+    text-decoration:dotted;
+    line-height: 1.75em;
+    color: #D9D5DF; 
+}
+
+footer{ 
+    text-align: center; 
+    font-family: Tilt Neon;
+}
+
+@media only screen and (min-width: 800px){
+
+#main{
+    min-width: 300px;
+}
+}
