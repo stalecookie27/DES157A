@@ -1,0 +1,239 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background:url(images/BGF.png) ;
+    font-family: 'Silkscreen', sans-serif;
+}
+
+p{
+    font-size: 13px;
+    text-align: left ;
+}
+
+#box{
+    width: 100px;
+    height:100px;
+    color: blue;
+}
+
+#intro{
+    height: 700px;
+}
+
+/*images*/
+#pinkpic{
+    transform: translate(1000px, -600px);
+}
+/*header*/
+#gamerules{
+    font-size: 30px;
+    font-family: 'Silkscreen', sans-serif;
+    border-radius: 50%;
+    background-color: #FFEEF8;
+    border-color: #ED5DEC;
+    border-width: 4px;
+    color: #ED5DEC;
+}
+
+.close{
+  margin-top: 20px;  
+}
+
+.sticky{
+    position: fixed;
+    top:0;
+    left:
+    width: 100%;
+}
+
+/*intro*/
+.inh{
+font-size: 60px;
+text-align: center;
+}
+
+.inp{
+text-align: center;
+font-size: 20px;
+margin: 70px 200px 70px 200px;
+}
+
+#begin{
+    padding: 13px 30px;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: #ED5DEC;
+    margin-bottom: 190px;
+    background-color: #FFEEF8;
+}
+
+#begin:hover{
+    background-color :#ED5DEC;
+    border-color:#FFEEF8 ;
+}
+
+a{
+    text-decoration: none;
+    color: #ED5DEC;
+}
+
+a:hover{
+    color: #FFEEF8;
+}
+
+h2{
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 24px;
+}
+
+article{
+    text-align: center;
+}
+
+/* overlay stuff */
+#overlay1 {
+    position: absolute;
+    background: url(images/rule-background.png);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#overlay1 article {
+    box-sizing: border-box;
+    background-color: #FFEEF8;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 6px;
+    padding: 50px;
+    width: 50vw;
+    height: 60vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow-y: scroll;
+}
+
+#overlay2 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    transition-property: opacity, visibility;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+#overlay2 article {
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 15px;
+    background-color: #FFEEF8;
+    border-color: #ED5DEC;
+    width: 580px;
+    height: 670px;
+    padding: 20px;
+    border-radius: 15px;
+    overflow-y: scroll;
+    transform: translate(0px, -2285px);
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.showing {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* my form stuff*/
+.container{
+    max-width: 550px;
+    height: 650px; 
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.25em;
+    padding: 30px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 6px;
+    border-color: #ED5DEC;
+    background-color: #FFEEF8;
+}
+
+.bottom{
+    bottom: 0px;
+    max-width: 550px;
+    height: 650px; 
+    display: flex;
+    flex-direction: column;
+    line-height: 2.25em;
+    padding: 30px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 6px;
+    border-color: #ED5DEC;
+    background-color: #FFEEF8;
+} 
+#myform{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+input{
+    width: 250px;
+    padding: 5px;
+    border-color: #ED5DEC;
+}
+
+input[type=text]{
+    font-family: 'Silkscreen', sans-serif; 
+}
+
+input[type=submit]{
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 16px;
+    width: 100px;
+    padding: 7px;
+    border-radius: 7px;
+    border-color: #ED5DEC;
+    background-color: #FFEEF8;
+    color:#ED5DEC;
+    margin-top: 15px;
+}
+
+#next{
+    width: 100px;
+    margin-top: 15px;
+    padding: 7px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: 'Silkscreen', sans-serif;
+    border-color: #ED5DEC;
+    background-color: #FFEEF8;
+}
+#next:hover{
+    background-color: #ED5DEC;
+}
+
+#next1{
+    width: 100px;
+    margin-top: 360px;
+    padding: 7px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: 'Silkscreen', sans-serif;
+    border-color: #ED5DEC;
+    background-color: #FFEEF8;
+}
+#next1:hover{
+    background-color: #ED5DEC;
+}

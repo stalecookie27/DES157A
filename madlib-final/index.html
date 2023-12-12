@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+
+    <!--codez-->
+    <script src="script.js" defer></script>
+    <link href="style.css" rel="stylesheet">
+
+    <title>MadLib Final</title>
+</head>
+<body>
+
+    <header>  
+        <button id="gamerules">?</button>
+
+        <section id="overlay1" class="hidden">
+            <article>
+                <h3 id="item">Heading</h3>
+                <p id="item-text">Text</p>
+                <button class="close">continue</button>
+            </article>
+        </section>
+
+    </header>
+
+    <main>
+        <form id="myform">
+            <!--one verse 1-->
+            <section id="secOne" class="bottom">
+                    <h3>Fill out all the inputs for the 1st verse!</h3>
+                    
+                    <label for="inputOne">Provide a Day of the Week</label>
+                    <input type="text" id="inputOne">
+
+                    <label for="inputTwo">Provide a Verb</label>
+                    <input type="text" id="inputTwo">
+
+                    <label for="inputTre">Provide an Adjective ending with -ing</label>
+                    <input type="text" id="inputTre">
+
+                    <label for="inputFor">Provide a Verb</label>
+                    <input type="text" id="inputFor">
+
+                    <label for="inputFiv">Provide a Day of the Week</label>
+                    <input type="text" id="inputFiv">
+
+                    <label for="inputSix">Provide a Noun</label>
+                    <input type="text" id="inputSix">
+
+                    <label for="inputSev">Provide an Adjective ending with -ing</label>
+                    <input type="text" id="inputSev">
+
+                    <label for="inputFor">Provide a Verb</label>
+                    <input type="text" id="inputFor">
+
+                    <button id="next"><a href="#secTwo">Next</a></button>
+            </section>
+            <!--end of verse 1-->
+
+            <!--one verse 2-->
+            <section id="secTwo" class="container">
+                    <h3>Fill out all the inputs for the 2nd verse!</h3>
+                    
+                    <label for="inputEig">Provide an Adjective</label>
+                    <input type="text" id="inputEig">
+
+                    <label for="inputNin">Provide a Past tense verb</label>
+                    <input type="text" id="inputNin">
+
+                    <label for="inputTen">Provide a Noun</label>
+                    <input type="text" id="inputTen">
+
+                    <button id="next1"><a href="#secTre">Next</a></button>
+            </section>
+            <!--end of verse 2-->
+
+            <!--one verse 3-->
+            <section id="secTre" class="container">
+                    <h3>Fill out all the inputs for the last verse!</h3>
+
+                    <label for="inputEle">Provide a Past tense verb</label>
+                    <input type="text" id="inputEle">
+
+                    <label for="inputTwe">Provide a Person</label>
+                    <input type="text" id="inputTwe">
+
+                    <label for="inputThtn">Provide an Adjective</label>
+                    <input type="text" id="inputThtn">
+
+                    <label for="inputFrtn">Provide an Adjective</label>
+                    <input type="text" id="inputFrtn">
+
+                    <label for="inputFvtn">Provide a Noun</label>
+                    <input type="text" id="inputFvtn">
+
+                    <label for="inputSxtn">Provide a Body Part</label>
+                    <input type="text" id="inputSxtn">
+
+                    <label for="inputSvtn">Provide a Noun</label>
+                    <input type="text" id="inputSvtn">
+
+                    <label for="inputEgtn">Provide a Verb</label>
+                    <input type="text" id="inputEgtn">
+
+                    <input id="sumbit" type="submit" value="Send">
+        
+            </section>
+            <!--end of verse 3-->
+
+            <!--final form overlay-->
+            <section id="intro">
+                <article>
+                        <h2 class="inh"> INTRODUCTION </h2>
+                        <p class="inp">PinkPantheress is one of the most popular rising pop girlie who is celebrated for her unique sound and style. One of the main things she is known for is her short songs. </p>
+                        <p class="inp">Let’s see if you can write a pop song through this Mad Lib. You can choose your words wisely or have more fun. It is your choice. Fill out the specific instrucion for each verse!</p>
+                        <p class="inp">Thanks for playing! - M </p>
+                        <button id="begin"><a href="#secOne">begin</a></button>
+                </article>
+                <img src="images/pinkpantheress-pic.png" id="pinkpic"> 
+
+            </section>
+            <!--end of final form overlay-->
+        </form>
+
+        <div id="overlay2" class="hidden">
+            <article id="madlib">
+                <p>text</p>
+            </article>
+        </div>
+   </main>
+</body>
+</html>
