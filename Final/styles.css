@@ -25,6 +25,12 @@ body{
     align-self: center;
 }
 
+#img3{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
 .list{
     padding-left: 40px;
     padding-right: 40px;
