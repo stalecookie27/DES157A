@@ -103,10 +103,6 @@
         }
     }
 
-    //background music
-   //pinkP.loop = true;
-   //pinkP.play();
-
     //header//
     window.onscroll = function(){
         myFunction()
